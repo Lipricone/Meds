@@ -4119,7 +4119,9 @@ input[type="button"].btn-block {
 .pagination-sm .page-item:last-child .page-link {
   border-top-right-radius: 0.2rem;
   border-bottom-right-radius: 0.2rem; }
-
+.paragraph{
+  font-size: 19px;
+}
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
@@ -8358,6 +8360,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
+        overflow-y: hidden;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -9095,7 +9098,7 @@ textarea.form-control {
 
 .heading-section .subheading {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 21px;
   display: block;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -9625,7 +9628,7 @@ textarea.form-control {
   font-size: 15px;
   width: 100%; }
   .sidebar-box h3 {
-    font-size: 18px;
+    font-size: 26px;
     margin-bottom: 20px; }
 
 .categories, .sidelink {
@@ -9641,6 +9644,7 @@ textarea.form-control {
       border-bottom: none;
       padding-bottom: 0; }
     .categories li a, .sidelink li a {
+      font-size: 18px;
       display: block; }
       .categories li a span, .sidelink li a span {
         position: absolute;
